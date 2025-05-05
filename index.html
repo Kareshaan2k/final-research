@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>E</span>Goyama</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Research project scope </a></li>
+            <li><a href="#projects" data-after="Projects">Research project milestones </a></li>
+			<li><a href="#Documents" data-after="Documents">Documents</a></li>
+			<li><a href="#Presentations" data-after="Presentations">Presentations</a></li>
+            <li><a href="#about" data-after="About">About Us</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>Welcome to <span></span></h1>
+        <h1>E-GOYAMA <span></span></h1>
+        
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Research<span>Project</span>Scope</h1>
+        
+      </div>
+	  
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Literature Survey</h2>
+          <p>In recent years, there has been a growing emphasis on the application of machine learning algorithms in the agricultural sector, particularly in the context of crop yield optimization 
+		  and prediction. These efforts have the potential to transform traditional agricultural practices by enabling data-driven decision-making. This literature review surveys key studies that 
+		  have explored the use of machine learning in agricultural decision-making and crop recommendation systems, setting the stage for the present research, which focuses on recommending rice 
+		  breeds based on soil nutrient analysis and machine learning techniques. 
+		  <br><br>
+		  Rashi Agarwal's pioneering research revolutionized agricultural decision-making by applying machine learning methods to
+		  empower farmers with insights for informed crop selection. This study stressed the importance of considering environmental and geographic factors in crop selection, moving beyond traditional 
+		  approaches. Agarwal's research emphasized that crop selection should be integrated, considering diverse environmental variables like soil composition, climate, topography, and historical 
+		  practices. By incorporating these variables, the research aimed to provide farmers a holistic perspective for successful crop cultivation. To tackle this complexity, Agarwal explored various 
+		  machine learning techniques, including decision trees, K-nearest neighbors (KNN), random forests, and neural networks. Among these, neural networks stood out for their ability to accurately 
+		  recommend crops by capturing intricate patterns in the data. In essence, Rashi Agarwal's research showcased how machine learning, particularly neural networks, could transform agricultural 
+		  decision-making, leading to more informed and sustainable practices, higher crop yields, and reduced resource wastage [1].
+		  <br><br>
+		  Priyadharshini A's research, outlined in reference, aimed to boost agricultural productivity and mitigate crop failures through the application of machine learning algorithms. The study 
+		  echoed the importance of neural networks in providing precise crop recommendations, drawing on prior work by Rashi Agarwal. The research addressed the persistent issue of crop failures, 
+		  caused by factors like adverse weather, soil deficiencies, and poor crop choices. These failures have financial and food security implications. Priyadharshini A leveraged machine learning to 
+		  analyze extensive agricultural data, including historical crop performance, environmental factors, and soil characteristics. Machine learning algorithms processed this data to offer accurate 
+		  crop selection recommendations. Neural networks emerged as a powerful tool, excelling at identifying complex data patterns. They provided adaptable and accurate recommendations, empowering 
+		  farmers to make informed decisions based on historical data and current conditions. This reduced the risk of crop failures and enhanced agricultural productivity. In essence, Priyadharshini 
+		  A's research highlighted the transformative potential of machine learning, particularly neural networks, in agriculture. These algorithms empowered farmers with reliable recommendations, 
+		  aligning with the trend of data-driven decision-making in agriculture and addressing long-standing challenges in the field [2].
+		  <br><br>
+		  Shilpa Mangesh Pande's research introduced a groundbreaking 
+		  approach using a smartphone application to forecast agricultural production. This innovative solution utilized GPS technology to precisely locate farmers' fields, providing real-time access 
+		  to technology for optimizing agricultural practices. Key to this research was the use of the Random Forest (RF) algorithm, which achieved an impressive 95% accuracy in crop yield forecasting, 
+		  outperforming other algorithms. This demonstrated RF's suitability for accurate predictions in agriculture. The study highlighted the benefits of integrating mobile technology and robust 
+		  machine learning in agriculture. Farmers could access cutting-edge technology, receive personalized recommendations, and location-specific forecasts, empowering them to make informed 
+		  decisions about planting, harvesting, and resource management. Shilpa Mangesh Pande's research showcased how modern technology, like smartphones and advanced machine learning, can 
+		  revolutionize agriculture. This userfriendly and location-aware approach has the potential to enhance productivity, reduce risks, and contribute to sustainable farming practices, 
+		  benefiting both farmers and food security [3].
+		  <br><br>
+		  Mayank Champaneri's research advanced agricultural yield prediction by utilizing a random forest classifier, a powerful machine learning technique. This study also incorporated data mining to
+		  extract insights from extensive agricultural and climate data. A key innovation was the creation of a user-friendly website, bridging advanced technology with everyday users, especially 
+		  farmers. This platform allowed individuals to access predictive technology for crop production forecasts based on specific climate data in their regions. This democratization of predictive 
+		  tools empowered farmers and stakeholders, improving decision-making and agricultural practices. Champaneri's research broke barriers by making cutting-edge technology accessible to a broader 
+		  audience. By providing a platform for inputting local climate data and receiving accurate crop production predictions, it enhanced farming efficiency, effectiveness, and user empowerment. 
+		  The combination of user accessibility, advanced machine learning algorithms, and data mining showcased the democratizing potential of agricultural technology. It demonstrated how technology 
+		  can benefit farmers and stakeholders, leading to more sustainable and productive agricultural practices, exemplifying the transformative impact of technology on agriculture [4].
+		  <br><br>
+		  These reviewed studies underscore the transformative potential of machine learning algorithms in agriculture. The successes of neural networks, Random Forest algorithms, and user-centric 
+		  applications emphasize the capacity of these technologies to revolutionize crop selection, yield prediction, and production forecasting. Building upon these foundations, the present study 
+		  aims to contribute to the ongoing evolution of data-driven agricultural decision-making by tailoring recommendations for rice breeds based on soil nutrient analysis and machine learning 
+		  techniques.
+		  <br><br>
+		  In the realm of agricultural economics, understanding the intricacies of farming cost prediction and management holds paramount importance for both policymakers and farmers. 
+		  The agricultural sector, being a fundamental pillar of most economies, necessitates efficient utilization of resources and precise cost estimation for sustainable agricultural practices. 
+		  As such, this topic delves into the review of pertinent literature surrounding the central theme of this thesis: the development of machine learning (ML) algorithms for predicting farming 
+		  costs among paddy farmers in the Central Province of Sri Lanka.
+		  <br><br>
+		  Before delving into the literature review, it is imperative to comprehend the significance of paddy farming in Sri Lanka. 
+		  Paddy, or rice, is the staple food of the country, and its cultivation is deeply ingrained in Sri Lankan culture and history. It forms the cornerstone of the agrarian landscape, providing 
+		  sustenance and livelihood to a significant portion of the population. Therefore, any research aimed at improving the efficiency and sustainability of paddy farming practices is of immense 
+		  relevance. 
+		  <br><br>
+		  Historically, estimating farming costs has been a meticulous and labor-intensive process. Farmers have relied on their experiential knowledge and manual record-keeping to assess 
+		  the expenses involved in various agricultural activities, from land preparation to postharvest handling. Traditional cost estimation methods, although valuable, are prone to subjectivity,
+		  data inaccuracies, and limitations in handling a multitude of variables.
+		  <br><br>
+		  The integration of machine learning into agriculture represents a groundbreaking shift in the field. ML algorithms, 
+		  driven by advancements in data collection and computing power, offer the potential to revolutionize cost prediction and optimization in farming practices. These algorithms can harness vast 
+		  datasets, including weather patterns, soil quality, labor costs, and market dynamics, to provide more accurate and data-driven cost estimations.
+		  <br><br>
+		  The literature review reveals a burgeoning 
+		  interest in applying ML techniques to agricultural domains globally. However, while there are numerous studies on crop yield prediction and disease detection, there is a paucity of research 
+		  specifically addressing farming cost prediction among paddy farmers in Sri Lanka's Central Province. This dearth of research creates a unique opportunity for the current study to contribute 
+		  significantly to the field.
+		  <br><br>
+		  The review also highlights the challenges associated with applying ML in agriculture. Data collection, data quality, and model interpretability remain prominent 
+		  hurdles. Furthermore, the idiosyncrasies of regional agricultural practices, as seen in the Central Province, necessitate a tailored approach to algorithm development.
+		  <br><br>
+		  Paddy cultivation is 
+		  the cornerstone of agriculture in Sri Lanka, with the Central Province serving as a vital hub for rice production. In this context, the accurate identification of paddy growth stages and the 
+		  optimal timing for harvesting are pivotal for ensuring agricultural sustainability and food security. Over recent years, image processing techniques have gained prominence as powerful tools 
+		  for achieving precision agriculture, offering practical solutions to address the unique challenges faced by farmers in the Central Province.
+		  <br><br>
+		  Accurate identification of paddy growth stages is 
+		  integral to effective crop management. Image processing techniques have emerged as indispensable tools to automate this process, providing farmers with valuable insights into the development 
+		  of their paddy fields.
+		  <br><br>
+		  One notable study by Bannari et al. (2017) employed deep learning techniques, particularly convolutional neural networks (CNNs), to automatically recognize paddy growth 
+		  stages. This approach significantly reduces the manual labor required for stage identification while ensuring precision, a critical factor in determining the appropriate timing for crucial 
+		  agricultural activities.
+		  <br><br>
+		  Additionally, Pal and Mather (2005) explored the use of support vector machines (SVMs) for classification in remote sensing, laying the foundation for understanding 
+		  how machine learning techniques can be applied to crop stage recognition. While their work is not specific to paddy, it provides insights into the capabilities of SVMs, which are relevant to 
+		  this context. 
+		  <br><br>
+		  Determining the optimal time for harvesting paddy is a multifaceted task, given its profound impact on crop yield and quality. Image processing techniques have been harnessed to 
+		  predict harvesting time accurately, enabling farmers to maximize their crop's yield potential.
+		  <br><br>
+		  Suriyawong et al. (2013) addressed this challenge by developing a system that detects rice 
+		  maturity and predicts yield using image processing. This system is particularly valuable for the Central Province, where precise harvesting timing is essential due to the region's diverse 
+		  climatic conditions and soil types.
+		  <br><br>
+		  Furthermore, Bhogesha and Hanumanthappa (2018) conducted a comprehensive review of methods for estimating rice crop yield through image processing. While 
+		  not specific to the Central Province, their review encompasses various image processing techniques and highlights the potential for more accurate yield forecasts, which can greatly benefit 
+		  farmers in this region.
+		  <br><br>
+		  The Central Province of Sri Lanka presents unique challenges and opportunities for paddy cultivation. Sanjeev et al. (2019) conducted research on rice yield estimation 
+		  specifically for this region, leveraging remote sensing and GIS technologies. Their study underscores the importance of considering regional factors when implementing image processing 
+		  techniques for paddy stage identification and harvesting time prediction.
+		  <br><br>
+		  Despite the promise of image processing techniques, several challenges persist, and future directions must be 
+		  addressed. Rajan and Poongodi (2021) discussed the challenges and prospects of precision agriculture in Sri Lanka, emphasizing the need for infrastructure development and farmer training to 
+		  fully harness the potential of image processing technologies. They underscored the importance of customizing these techniques to meet the specific needs of the Central Province.
+		  <br><br>
+		  The application of image processing techniques for identifying paddy growth stages and determining harvesting times in the Central Province of Sri Lanka represents a significant advancement in 
+		  precision agriculture. These studies demonstrate the potential for high accuracy in growth stage identification and harvesting time prediction, offering a pathway to increased crop yields 
+		  and improved food security. However, it is imperative to consider the distinctive regional factors and challenges in the Central Province and to prioritize tailored solutions. As technology 
+		  continues to advance and research efforts expand, image processing techniques will play an increasingly vital role in enhancing paddy cultivation practices in this agriculturally significant 
+		  region.</p>
+        </div>
+		
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Research Gap</h2>
+          <br>
+          <h5>Research Gap for Domain 1: Recommending Suitable Rice Breed for Successful Growth.</h5> 
+<p>While there is existing research on crop recommendation systems and yield prediction models, there's a noticeable gap in the specific domain of recommending rice breeds based on soil nutrient analysis in the Central Region of Sri Lanka. 
+The current literature primarily focuses on general crop recommendations, and it often neglects the unique characteristics of rice cultivation, which requires tailored recommendations due to the diversity of rice varieties and soil conditions. 
+This research gap emphasizes the need for a dedicated investigation into developing precise and localized recommendations for rice breeds based on soil properties, which can significantly improve the success of paddy plantations in the Central Region. 
+</p>
+<br>
+<h5>Research Gap for Domain 2: Paddy Leaf Diseases Identification Using Image Processing Technique </h5>
+<p>
+Existing research in Sri Lanka has primarily centered on identifying a limited set of common rice diseases through document-based approaches, neglecting the potential of computer-based systems or device-oriented applications for disease detection. 
+This gap leaves room for improving the accuracy and efficiency of paddy leaf disease identification, especially considering that more diseases can impact rice crops in the area. 
+The research gap underscores the importance of extending disease detection techniques to cover a broader spectrum of diseases and exploring IT-based systematic solutions to enhance disease identification and management. 
+</p> 
+ 
+<br> 
+<h5>Research Gap for Domain 3: Identification of Paddy Stage Using Image Processing Technique Based on Paddy Plant </h5>
+<p>
+The existing research landscape lacks a comprehensive analysis of the accuracy of image processing algorithms in predicting the optimal paddy plant stage for harvest in the Central Region of Sri Lanka. 
+While image processing techniques have been used for identifying growth stages, their precision in determining the ideal timing for paddy harvest is inadequately explored. 
+This research gap highlights the need for systematic assessments of the reliability and accuracy of image processing algorithms in facilitating decision-making for paddy plant harvest, ensuring better yields for farmers. 
+</p>
+<br>
+<h5>Research Gap for Domain 4: Identification of Paddy Stage Using Image Processing Technique Based on Paddy Plant </h5>
+<p>
+There's a lack of research addressing the influence of environmental factors, such as weather conditions, soil moisture levels, and temperature variations, on the accuracy and efficacy of image processing-based systems designed to determine the ideal moment for paddy plant harvest in the Central Region. 
+Existing research often does not account for the critical role of environmental variables in shaping rice plant development and maturity. 
+This research gap emphasizes the need for in-depth exploration of the relationship between environmental factors and the performance of image processing algorithms, as understanding these connections is vital for robust and reliable harvest time predictions in the region. 
+Addressing these research gaps in your respective domains will contribute significantly to the success of your group research on providing e-solutions for paddy plantation in the Central Region of Sri Lanka. It will lead to more accurate rice breed recommendations, improved paddy leaf disease identification, and enhanced precision in paddy plant stage identification, ultimately benefiting local farmers and the agricultural sector. 
+</p> 
+        </div>
+		
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2> Research Problem</h2>
+		  <br>
+          <p>Paddy cultivation is a critical component of Sri Lanka's agriculture, especially in the Central Region, contributing to both culture and livelihoods. However, several challenges, including rice leaf diseases, variety selection, paddy growth stage identification, and farming cost prediction, impact the region's rice farmers. 
+The research problem at hand is to develop a comprehensive e-solution that addresses multiple critical challenges faced by rice farmers in the Central Region of Sri Lanka. This e-solution aims to leverage advanced technologies, including Convolutional Neural Networks (CNN) and machine learning, to provide accurate and timely solutions to the following interconnected problems: 
+Early Detection of Rice Leaf Diseases: 
+Background: Farmers in the Central Region rely on rice cultivation, but they face significant losses due to diseases like Brown Spot, Hispa, and Leaf Blast. Traditional manual inspection methods often result in late disease detection. 
+Problem: The challenge is to design and implement a robust CNN-based system capable of early and automated detection of these diseases, thus preventing crop damage and losses. 
+Significance: Early disease detection can significantly improve crop health, minimize yield losses, and reduce the financial burden on farmers. It also promotes sustainable farming practices by reducing the need for excessive pesticide use. 
+Recommendation of Suitable Rice Varieties: 
+Background: Sri Lanka's Central Region features diverse agro-climatic conditions, necessitating the cultivation of various rice varieties. Inadequate variety selection can lead to suboptimal yields. 
+Problem: The challenge is to create a machine learning-driven system that considers local agro-climatic conditions and soil properties to recommend the most suitable rice varieties, enhancing crop yield and resource utilization for farmers across Sri Lanka. 
+Significance: Tailored variety recommendations can help farmers maximize their yields and adapt to changing environmental conditions, thereby improving food security and income generation. 
+Precise Identification of Paddy Growth Stages: 
+Background: Accurate identification of paddy growth stages is crucial for resource allocation, pest and disease management, and yield prediction. Traditional manual methods are labor-intensive and prone to errors. 
+Problem: The challenge is to develop an image processing-based solution that automates the identification of growth stages, considering the diverse conditions of the Central Region. 
+Significance: Automated growth stage identification improves resource management, enhances pest and disease control, and facilitates more precise yield predictions. It empowers farmers to make informed decisions at each stage of cultivation. 
+Accurate Farming Cost Prediction: 
+Background: Estimating farming costs is crucial for efficient resource allocation and yield optimization. Inaccurate cost predictions can lead to financial losses. 
+Problem: The challenge is to create a predictive model that accurately forecasts farming costs, enabling farmers to plan and manage their resources effectively, ultimately improving paddy cultivation profitability. 
+Significance: Accurate cost predictions help farmers optimize resource allocation, reduce waste, and increase profitability. It also supports sustainable farming practices by minimizing resource overuse. 
+Addressing these interconnected problems through a unified e-solution not only benefits rice farmers in the Central Region but also showcases the potential of technology to enhance agricultural practices, support food security, and protect the environment. This research strives to provide comprehensive support to the rice farming community, ensuring sustainable and profitable paddy cultivation practices while preserving Sri Lanka's rich agricultural heritage. 
+</p>
+</p>
+ 
+
+        </div>
+		
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2> Objectives</h2>
+          <p>
+		 <h5> Main Objective:</h5><p>
+		 
+The overarching objective of this research is to significantly enhance rice cultivation practices in Sri Lanka's Central Region, a pivotal area for the nation's agricultural economy. The primary focus is on addressing critical issues faced by rice farmers, notably the identification and prevention of diseases such as Brown Spot, Hispa, and Leaf Blast that adversely affect rice plants. The research employs cutting-edge Convolutional Neural Networks (CNNs), representing highly intelligent computer programs, to automate the detection of these diseases. The core aim is to enable these CNNs to swiftly and accurately assess the health of rice leaves, even before visible symptoms manifest, thereby allowing for timely intervention to mitigate disease spread and minimize crop damage. This research not only benefits rice farmers but also contributes significantly to environmental protection. By reducing the reliance on chemical pesticides that can harm soil and water quality, the study promotes more sustainable agricultural practices. Therefore, the main research objective is a multi-faceted endeavor aimed at improving rice farming, ensuring a consistent supply of healthy rice, and reducing the environmental footprint of agriculture in the region. It exemplifies how technology can be harnessed to advance farming practices, safeguard vital resources, and contribute to the overall well-being of society. 
+<br><br></p><h5>Sub Objective 1:CNN-Based Disease Detection </h5><p>
+Develop and implement specialized CNN models engineered to automate the detection of rice leaf diseases, with a particular focus on Brown Spot, Hispa, and Leaf Blast. These CNNs will be trained to exhibit a high degree of accuracy and speed in disease identification. Their capacity to detect diseases in rice plants at an early stage, often imperceptible to the human eye, is instrumental in minimizing crop damage and preventing disease propagation. This sub-objective underscores the commitment to enhancing disease management in rice farming. 
+<br><br></p><h5>Sub Objective 2:Comprehensive Dataset Creation </h5><p>
+Establish a comprehensive and meticulously curated dataset comprising images of both diseased and healthy rice plants. This dataset is an essential resource for training and finetuning the CNN models. By encompassing a diverse array of images, it ensures that the CNNs acquire a robust capability to distinguish between healthy and diseased rice plants accurately. The dataset's quality and comprehensiveness are pivotal in enabling the CNNs to deliver precise disease assessments. 
+<br><br></p><h5>Sub Objective 3:Farmers' Development </h5><p>
+Facilitate the transfer of advanced technology and knowledge to local farmers in Sri Lanka's Central Region. Provide farmers with user-friendly tools and technology that empower them to efficiently identify diseases in their rice crops and initiate timely corrective actions. This sub-objective aims to democratize access to cutting-edge agricultural practices, ultimately enhancing crop health, increasing yields, and improving the economic well-being of farmers. 
+<br><br></p><h5>Sub Objective 4:Environmentally Friendly Farming Methods </h5><p>
+Innovate and advocate for environmentally sustainable farming methods that capitalize on early disease identification. These methods prioritize the judicious use of pesticides and fertilizers, thereby minimizing the environmental impact associated with conventional agricultural practices. By aligning farming techniques with ecological sustainability, this sub-objective contributes to the preservation of vital natural resources. </p>
+		  <br><br></p><h5>Sub Objective 5:Knowledge Transfer </h5><p>
+Actively engage in knowledge transfer activities aimed at ensuring widespread acceptance and adoption of the developed solution. Provide comprehensive training to rice farmers, extension agents, and other key agricultural stakeholders on the practical utilization of Convolutional Neural Network-based image processing technology. This sub-objective emphasizes the significance of capacity-building and knowledge dissemination as critical components of successful technology implementation. </p>
+<br>
+<p>These research sub-objectives collectively represent a holistic and transformative approach to rice cultivation in Sri Lanka's Central Region. By automating disease detection, improving agricultural practices, and fostering knowledge exchange, this study aspires to revitalize the region's rice farming sector. The research endeavors to fortify food security, bolster the economic resilience of farmers, and usher in a more sustainable era of agriculture, thereby fostering long-term prosperity for both communities and the environment. </p>
+        </div>
+				
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2> Methodology</h2>
+          <p>The research methodology presented here combines two primary objectives: predicting farming costs and identifying paddy growth stages in Sri Lanka's Central Province agrarian landscape. This research leverages advanced Machine Learning (ML) algorithms for cost prediction and employs state-of-the-art image processing techniques for paddy growth stage identification. This methodology makes a significant and unique contribution to agricultural research. 
+<br><br>The methodology is founded on a mixed-methods approach tailored to the unique characteristics of paddy farming in the Central Province. It blends quantitative and qualitative data collection and analysis methods, spanning multiple farming seasons to capture the dynamic nature of agricultural processes. 
+<br><br>Data collection is central to understanding both paddy farming costs and paddy growth stages. Primary data is meticulously gathered through structured surveys conducted among local farmers. These surveys cover various aspects, including labor costs, equipment expenses, and fertilizer expenditures, ensuring a comprehensive and accurate dataset. 
+<br><br>Data preprocessing is a critical step in the methodology. The collected data undergoes rigorous cleaning and validation to eliminate errors and outliers, ensuring that subsequent model training and analysis yield reliable results. 
+<br><br>Feature engineering in this approach goes beyond conventional cost factors. Domainspecific features are created to capture unique regional dynamics, such as climate variability, crop disease prevalence, and government subsidies. These features enhance the predictive power of ML models. 
+<br><br>The methodology evaluates a diverse array of ML algorithms, including Linear Regression, Decision Trees, Random Forest, and XGBoost, to determine their suitability for cost prediction. Their performances are thoroughly compared and contrasted to ascertain the most accurate and robust model. 
+<br><br>Validation of model predictions includes both within-sample and out-of-sample validations. Cross-validation techniques, such as k-fold cross-validation, are employed to ensure the models' generalizability. 
+<br><br>Ethical considerations are integral to this research. Steps are taken to address potential biases in the data and algorithms, ensuring fair and unbiased predictions for all farmers. 
+<br><br>The research adopts an iterative approach to model refinement, involving feedback loops with farmers and local agricultural experts to continuously improve model accuracy and relevance. This iterative process ensures that the ML algorithms remain adaptable to the evolving agricultural landscape of the Central Province. 
+<br><br>Advanced software and tools, including Python, scikit-learn, and the XGBoost library, facilitate the development of ML models. This technological infrastructure empowers the research to harness the full potential of ML for agricultural cost prediction. 
+<br><br>This research methodology represents a significant advancement in agricultural research. It leverages advanced ML algorithms tailored to the unique context of paddy farming in the Central Province, aiming to empower local farmers with precise cost predictions and enable them to make informed decisions. This approach demonstrates the potential of technology in addressing real-world challenges in agriculture. 
+<br><br></p><h5>Data Collection</h5><p>
+In this study, a comprehensive image dataset was meticulously collected from various reliable sources, including Kaggle, Google Datasets, and other online resources. The dataset consisted of 2,400 high-quality photos covering a wide range of classes related to paddy leaf diseases, including healthy leaves for comparison and various disease classes. Each class was represented by about 600 photos, ensuring fair representation.
+<br><br>
+The goal of this data collection was to support the development of machine learning algorithms for precise identification and diagnosis of paddy leaf diseases using image processing methods. The dataset acquisition considered factors such as the number of images, image quality, number of features, diversity of diseases, and compliance with the context of Sri Lanka.
+<br><br>
+Additionally, another phase of data collection focused on gathering data for a rice breed recommendation system. This dataset included parameters such as soil pH levels, humidity measurements, NPK concentrations, rice breed information, and temperature data. The data was collected from various sources, including Sri Lanka's agriculture and soil units, as well as Kaggle.
+<br><br>
+The primary objective of both data collection phases was to provide valuable insights and recommendations to Sri Lankan farmers for their rice cultivation practices, contributing to the improvement of rice farming practices and agricultural sustainability in the region.
+<br><br>
+The comprehensive dataset used in the study was collected from multiple sources, including the Rice Research and Development Institute in Bathalegala, the Agricultural Department in Gannoruwa, and publicly available datasets on Kaggle. The dataset covered various paddy growth stages and was carefully curated to ensure a fair representation of each stage and alignment with the specific context of paddy cultivation in the Central Province of Sri Lanka.
+<br><br>
+The data collection efforts aimed to empower the development of a sophisticated machine learning model for precise paddy stage identification and harvesting time prediction in the local agricultural landscape.
+<br><br></p><h5>Developing the model</h5><p>
+The research involved selecting a machine learning method for accurately identifying paddy leaf diseases and recommending rice breeds. The accuracy of the chosen algorithm was crucial for the research's credibility. Various models, including VGG16, RCNN, and custom convolutional models, were assessed. Convolutional Neural Networks (CNN) proved to be the best choice, consistently achieving a remarkable average accuracy of 93%, outperforming other models. The CNN architecture was meticulously designed with features like scaling, convolutional layers, max-pooling, dropout layers, and softmax activation for precise disease identification and growth stage prediction.
+<br><br>
+For rice breed recommendation, models like Random Forest and Light GBM were considered. Random Forest and Light GBM emerged as standout performers, achieving an average accuracy of approximately 75%. Random Forest was chosen for its simplicity and robustness, while Light GBM demonstrated superior performance when well-configured. Both models required parameter tuning and were susceptible to overfitting, with the number of estimators affecting their performance.
+<br><br>
+The development process involved the use of Multiple Linear Regression models, Random Forest, and finally, Gradient Descend XGBoost. XGBoost yielded the most accurate results with an accuracy of 99.99% and low MSE, RMSE, and MAPE values, demonstrating strong predictive capability.
+<br><br>
+In conclusion, the research focused on selecting the most accurate machine learning methods for disease identification and rice breed recommendation. The CNN model achieved high accuracy for disease identification, and Random Forest and Light GBM were chosen for rice breed recommendation. The research's success lay in its meticulous approach and dedication to precision in identifying paddy growth stages and predicting optimal harvesting times.
+<br><br></p><h5>Output</h5><p>
+These models were integrated into a web application to provide usability for the farmers and field officers. While developing the application the type of users that will be working with this application were taken into consideration. User friendly User Interfaces were designed to let farmers use this application easily.
+</p>	
+			</p>
+        </div>
+		
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Technologies Used</h2>
+          <p>PyCharm</p>
+		  <p>Fast API</p>
+		  <p>Flask API</p>
+		  <p>Machine Learning</p>
+		  <p>Python</p>
+        </div>
+		
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+  
+  <!-- Project milestone Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Research <span>Project</span> Milestone</h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project Proposal</h1>
+            
+            <p>Proposal presentation and the proposal report submission.</p>
+                  <p>Marks Allocated : 12%</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Progress Presentation-1</h1>
+            
+            <p>50% progress presentation of the research project.</p>
+                  <p>Marks Allocated : 15%</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/presentation-software-A.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1> Progress Presentation-2</h1>
+            
+            <p>90% progress presentation of the research project.</p>
+                  <p>Marks Allocated : 18%</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/presentation-example-graphic.jpg" alt="img">
+          </div>
+        </div>
+		<div class="project-item">
+          <div class="project-info">
+            <h1>Demonstration</h1>
+            <p>Submission and presentation of the research poster. </p>
+                  <p>Marks Allocated : 14%</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/systemsprocessess_wp.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1> Final Assessment</h1>
+            
+            <p>Submission of final reports and the final presentation of the research. </p>
+                  <p>Marks Allocated : 25%</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/Historical-Research-Design.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Viva</h1>
+            
+            <p>Final viva of the research project with an external panel member. </p>
+                  <p>Marks Allocated : 10%</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/images.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+  
+   <!-- Document Section -->
+  <section id="Documents">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Doc<span>ume</span>nts</h1>
+        <div class="box">
+		<div class="row">
+        <div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5> Project charter </h5>
+				<div class="pra">
+					<br><br><br><br><br><br>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/140_bUiNI_p0VrIiAmU8YNCdQLMXyXh8I/view?usp=sharing">View</a>
+					</p>
+				</div>
+			</div></div>
+			<div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5> Status Document 1 </h5>
+				<div class="pra">
+					<p>IT20229948</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1JkHsP8tVWShAW5CytECsnRCh79U6wGqY/view?usp=sharing">View</a>
+					</p>
+					<p>IT20109776</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1PvVAJBF_4JX-SY_Kt3nT5VrzZ9hOcF7A/view?usp=sharing">View</a>
+					</p>
+					<p>IT20236946</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1B_Lemcy5AL2mwTJUfLd8buQj2RiFfkva/view?usp=sharing">View</a>
+					</p>
+					<p>IT20008628</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1vh_zecdISDFOiWFB2UZsjjBzeb2cbPNx/view?usp=sharing">View</a>
+					</p>
+				</div>
+			</div></div></div>
+			
+			<div class="row">
+        <div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5> Proposal Document </h5>
+				<div class="pra">
+					<p>IT20229948</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1wBU50fwZBmL8VCE-rxphL4YMfy7M_2KA/view?usp=sharing">View</a>
+					</p>
+					<p>IT20109776</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/16imvbD3a3zusqHEH4VcE7yyrHyBL-T5o/view?usp=sharing">View</a>
+					</p>
+					<p>IT20236946</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/11CczXNy40rCbmgSkTQTm56l1PaTeXQio/view?usp=sharing">View</a>
+					</p>
+					<p>IT20008628</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1XBgrvT0jiYzCSBpy-fswdBOwJJ1mIvVC/view?usp=sharing">View</a>
+					</p>
+				</div>
+				
+			</div></div>
+			<div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Status Document 2</h5>
+				<div class="pra">
+					<p>IT20229948</p>
+					<p style="text-align: center;">
+						
+						<a class="button" href="https://drive.google.com/file/d/1Cz1xMypS2kb4lVfHWT31ZEPxsFojP606/view?usp=sharing">View</a>
+					</p>
+					<p>IT20109776</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1x0JF2qakYllYqsO-5O3xuNyo9eMycGX0/view?usp=sharing">View</a>
+					</p>
+					<p>IT20236946</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1w_9gvERy_VN_dxYmKVRGhlQc9rqp47Hy/view?usp=sharing">View</a>
+						
+					</p>
+					<p>IT20008628</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1rr7Nn6Ug30ylKa4Hu5t4R8zb_6bA0pqM/view?usp=sharing">View</a>
+					</p>
+				</div>
+			</div></div></div>
+			
+					<div class="row">
+        <div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Research Logbook</h5>
+				<div class="pra">
+					<p>IT20229948</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1ZlrzTzZEgyCP8qC9sB_HL1PNpx35cztS/view?usp=sharing">View</a>
+					</p>
+					<p>IT20109776</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1y0AlggRwZm7iQBXL9xcWp0_xX37xKMho/view?usp=sharing">View</a>
+					</p>
+					<p>IT20236946</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1lqz50zg_O4zO35jMAH8EMWGV2DQXffuh/view?usp=sharing">View</a>
+					</p>
+					<p>IT20008628</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1NVl-_Bc7Ll1GsYUyA5smwM0i6bIXq_AE/view?usp=sharing">View</a>
+					</p>
+				</div>
+			</div></div>
+			<div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5> Final Document </h5>
+				<div class="pra">
+					<p>Group Report</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1nrJiYFqVwNUdPflUelfmTRz76ShVr0Z-/view?usp=sharing">View</a>
+					</p>
+					<p>IT20229948</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1_RMEM__Lx_RlCV3dT9gpsNVcHw5M0QxU/view?usp=sharing">View</a>
+					</p>
+					<p>IT20109776</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1m9RV2p17g-3npuvX0taRa16YZKTKT8zw/view?usp=sharing">View</a>
+					</p>
+					<p>IT20236946</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1cqiTON1wqM0lYZKtgw7o0IMfJHfC6TU1/view?usp=sharing">View</a>
+					</p>
+					<p>IT20008628</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1I9PhhFGKXWSmV41XblH4BK64BgkRaczR/view?usp=sharing">View</a>
+					</p>
+				</div>
+			</div></div></div>
+			
+      </div>
+	  
+    </div>
+  </section>
+  <!-- End documents Section -->
+  
+     <!-- Presentation Section -->
+  <section id="Presentations">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Pres<span>entat</span>ions</h1>
+        <div class="box">
+		<div class="row">
+        <div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5> Proposal presentation </h5>
+				<div class="pra">
+					<br><br><br><br><br><br>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://docs.google.com/presentation/d/1hg0cX71oBPaffOwlWpA60DZwPq4tFV7-/edit?usp=sharing&ouid=118226920345052920494&rtpof=true&sd=true">View</a>
+					</p>
+				</div>
+			</div></div>
+			
+			<div class="col-sm-6 col-md-3">
+			</div>
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Progress Presentation-2 </h5>
+				<div class="pra">
+					<br><br><br><br><br><br>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://docs.google.com/presentation/d/1etRjQQGRWsLhjW2vWNN6ou2E3d_rH8Bs/edit?usp=sharing&ouid=118226920345052920494&rtpof=true&sd=true">View</a>
+					</p>
+				</div>
+			</div>
+			</div>
+			<div class="row">
+			
+        <div class="col-sm-6 col-md-3">
+			
+			
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5> Progress presentation-1 </h5>
+				<div class="pra">
+					<br><br><br><br><br><br>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://docs.google.com/presentation/d/1ysRPJBh51RYESgOa6OvJqvvCaZ10NneN/edit?usp=sharing&ouid=118226920345052920494&rtpof=true&sd=true">View</a>
+					</p>
+				</div>
+			</div></div>
+			
+			<div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Final presentation</h5>
+				<div class="pra">
+					<br><br><br><br><br><br>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://docs.google.com/presentation/d/19H8zmzy1I4K2ukbmRRlP_wTU-bphmiV2/edit?usp=sharing&ouid=118226920345052920494&rtpof=true&sd=true">View</a>
+					</p>
+				</div>
+			</div></div></div>
+			
+      </div>
+		  
+		  
+      </div>
+	  
+    </div>
+  </section>
+  <!-- End documents Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/wishalya_madam.jpeg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Supervisor</span></h1><br>
+        <h2>Ms. Wishalya Tissera</h2>
+          <p>Lecturer at Sri Lanka Institute of Information Technology, Department of Information Technology from 2022 </p>
+          <p>Software Engineer at Inclute Pvt Ltd, Colombo (2019 to 2021)</p>
+          <p>Instructor at Sri Lanka Institute of Information Technology, Department of Software Engineering (2016 to 2019)</p>
+          <p>Junior Software Engineer at Virtusa Pvt Ltd, Colombo  (December 2014 – December 2015)</p>
+          <p>Master of Computer Science at University of Colombo</p>
+          <p>B.Sc (Hons) in Information Technology Specializing in Software Engineering at Sri Lanka Institute of Information Technology</p>
+          <p>Diploma in Information Technology at University of Colombo Sri Lanka. (BIT)</p>
+      
+        
+      </div>
+    </div>
+	
+	<div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/shalini_madam.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About<span>Co-Supervisor</span></h1><br>
+        <h2>Ms. Shalini Rupasinghe</h2>
+          <p>Assistant Lecturer</p>
+          <p>Sri Lanka Institute of Information Technology, Department of Software Engineering</p>
+          <p>August, 2019 to present - Assistant Lecturer in Department of Computer Science & Software Engineering, Sri Lanka Institute of Information Technology, Sri Lanka</p>
+          <p>April, 2017 to August, 2019 - Assistant Lecturer in Department of Information Technology, Sri Lanka Institute of Information Technology, Sri Lanka</p>
+          <p>January, 2016 to March 2017 - Academic Instructor in Department of Information Technology, Sri Lanka Institute of Information Technology, Sri Lanka</p>
+
+        
+      </div>
+    </div>
+	
+	<div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/karesh2.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Leader</span></h1><br>
+        <h2>Kareshaan L.</h2>
+        <p>IT20229948 </p>
+		<p>Bsc (Hons) Degree In Information Technology Specialized In Information Technology </p>
+      </div>
+    </div>
+	
+	<div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/maya.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Member 1</span></h1><br>
+        <h2>Karunanayake K.M.S.M.</h2>
+        <p>IT20109776 </p>
+		<p>Bsc (Hons) Degree In Information Technology Specialized In Information Technology </p>
+        
+      </div>
+    </div>
+	
+	<div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/udaya.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Member 2</span></h1><br>
+        <h2>Ranasinghe R.A.S.U.K.</h2>
+        <p>IT20236946 </p>
+		<p>Bsc (Hons) Degree In Information Technology Specialized In Information Technology </p>
+        
+      </div>
+    </div>
+	
+	<div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/randi.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Member 3</span></h1><br>
+        <h2>Ranasinghe R.M.R.S.B.</h2>
+        <p>IT20008628 </p>
+		<p>Bsc (Hons) Degree In Information Technology Specialized In Information Technology </p>
+        
+      </div>
+    </div>
+	
+	
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>Information</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+94 77 138 0242</h2>
+            <h2>+94 76 363 5560</h2>
+			<h2>+94 77 599 9795</h2>
+            <h2>+94 71 567 3387</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>IT20229948@my.sliit.lk</h2>
+            <h2>IT20109776@my.sliit.lk</h2>
+			<h2>IT20236946@my.sliit.lk</h2>
+            <h2>IT20008628@my.sliit.lk</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>No.78,main street,Galaha</h2>
+			<h2>No 128/16, Mapanawathura road, Kandy</h2>
+			<h2>No 172, Dodamgolla, ambukwella, Teldeniya</h2>
+			<h2>No. 10, "ASHOKA", Walala, Menikhinna</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>S</span>mart <span>P</span>redi</h1>
+      </div>
+      <h2>Research Project Website assessment</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2022 SmartPredi. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+  
+ 
+</body>
+
+</html>
